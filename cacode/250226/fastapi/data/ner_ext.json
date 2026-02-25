@@ -1,0 +1,3715 @@
+{
+    "filename": "",
+    "content": "SUBJECTIVE:  I am asked to see the patient today with ongoing issues around her diabetic control.  We have been fairly aggressively, downwardly adjusting her insulins, both the Lantus insulin, which we had been giving at night as well as her sliding scale Humalog insulin prior to meals.  Despite frequent decreases in her insulin regimen, she continues to have somewhat low blood glucoses, most notably in the morning when the glucoses have been in the 70s despite decreasing her Lantus insulin from around 84 units down to 60 units, which is a considerable change.  What I cannot explain is why her glucoses have not really climbed at all despite the decrease in insulin.  The staff reports to me that her appetite is good and that she is eating as well as ever.  I talked to Anna today.  She feels a little fatigued.  Otherwise, she is doing well.PHYSICAL EXAMINATION:  Vitals as in the chart.  The patient is a pleasant and cooperative.  She is in no apparent distress.ASSESSMENT AND PLAN:  Diabetes, still with some problematic low blood glucoses, most notably in the morning.  To address this situation, I am going to hold her Lantus insulin tonight and decrease and then change the administration time to in the morning.  She will get 55 units in the morning.  I am also decreasing once again her Humalog sliding scale insulin prior to meals.  I will review the blood glucoses again next week.",
+    "indexes": {
+        "0": {
+            "Token": {
+                "0_10_Token": {
+                    "begin": 0,
+                    "end": 10,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "0_97_Sentence": {
+                    "begin": 0,
+                    "end": 97,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "10": {
+            "Token": {
+                "10_11_Token": {
+                    "begin": 10,
+                    "end": 11,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "13": {
+            "Token": {
+                "13_14_Token": {
+                    "begin": 13,
+                    "end": 14,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "15": {
+            "Token": {
+                "15_17_Token": {
+                    "begin": 15,
+                    "end": 17,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "18": {
+            "Token": {
+                "18_23_Token": {
+                    "begin": 18,
+                    "end": 23,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "24": {
+            "Token": {
+                "24_26_Token": {
+                    "begin": 24,
+                    "end": 26,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "27": {
+            "Token": {
+                "27_30_Token": {
+                    "begin": 27,
+                    "end": 30,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "31": {
+            "Token": {
+                "31_34_Token": {
+                    "begin": 31,
+                    "end": 34,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "35": {
+            "Token": {
+                "35_42_Token": {
+                    "begin": 35,
+                    "end": 42,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "43": {
+            "Entity": {
+                "43_48_Entity_temporal": {
+                    "semantic": "temporal",
+                    "umlsConcepts": [],
+                    "begin": 43,
+                    "end": 48,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Relation": {
+                "54_68_Entity_problem_43_48_Entity_temporal_Relation_problem-temporal": {
+                    "semantic": "problem-temporal",
+                    "fromEnt": {
+                        "semantic": "problem",
+                        "umlsConcepts": [],
+                        "begin": 54,
+                        "end": 68,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.019319038085355646",
+                            "concept_prob": "0.666101137260341"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "temporal",
+                        "umlsConcepts": [],
+                        "begin": 43,
+                        "end": 48,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 43,
+                    "end": 68,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "43_48_Token": {
+                    "begin": 43,
+                    "end": 48,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "49": {
+            "Token": {
+                "49_53_Token": {
+                    "begin": 49,
+                    "end": 53,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "54": {
+            "Entity": {
+                "54_68_Entity_problem": {
+                    "semantic": "problem",
+                    "umlsConcepts": [],
+                    "begin": 54,
+                    "end": 68,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.019319038085355646",
+                        "origin": "model",
+                        "concept_prob": "0.666101137260341",
+                        "combinationType": "14_problem",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Ongoing pain\",\"lexical_code\":\"5727095\",\"default_lexical_title\":\"Ongoing pain\",\"default_lexical_code\":\"5727095\",\"confidence\":\"0.694\"},\"icd10cm\":{\"codes\":[{\"code\":\"R52\",\"code_metadata\":{\"ccsr\":[{\"ccsr_category\":\"SYM016\",\"ccsr_description\":\"Other general signs and symptoms\"}],\"hcc\":[]},\"map_type\":\"Preferred primary\",\"relationship_type\":\"Narrower than\",\"title\":\"Pain, unspecified\"}]},\"icd9cm\":{\"codes\":[{\"code\":\"338.29\",\"map_type\":\"Preferred primary\",\"title\":\"Other chronic pain\"}]},\"snomedInternational\":{\"codes\":[{\"code\":\"22253000\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"D010146\",\"relationship_type\":\"Narrower than\",\"title\":\"Pain\"}]},\"umls\":{\"codes\":[{\"code\":\"C0184567\",\"title\":\"Acute onset pain\"},{\"code\":\"C0478148\",\"title\":\"Other chronic pain\"},{\"code\":\"C0281856\",\"title\":\"Generalized aches and pains\"},{\"code\":\"C0030193\",\"title\":\"Pain\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Token": {
+                "54_61_Token": {
+                    "begin": 54,
+                    "end": 61,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "62": {
+            "Token": {
+                "62_68_Token": {
+                    "begin": 62,
+                    "end": 68,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "69": {
+            "Token": {
+                "69_75_Token": {
+                    "begin": 69,
+                    "end": 75,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "76": {
+            "Token": {
+                "76_79_Token": {
+                    "begin": 76,
+                    "end": 79,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "80": {
+            "Entity": {
+                "80_96_Entity_treatment": {
+                    "semantic": "treatment",
+                    "umlsConcepts": [],
+                    "begin": 80,
+                    "end": 96,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.019319038085355646",
+                        "origin": "model",
+                        "concept_prob": "0.5442891193767441",
+                        "combinationType": "16_treatment",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Provide carbohydrate controlled diabetic diet\",\"lexical_code\":\"41300436\",\"default_lexical_title\":\"Provide carbohydrate controlled diabetic diet\",\"default_lexical_code\":\"41300436\",\"confidence\":\"0.463\"},\"cpt\":{\"codes\":[]},\"hcpcs\":{\"codes\":[]},\"icd10pcs\":{\"codes\":[]},\"loinc\":{\"codes\":[]},\"snomedInternational\":{\"codes\":[{\"code\":\"284071006\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"\",\"title\":\"Dietary treatment for disorder\"},{\"code\":\"435581000124102\",\"map_type\":\"Non-preferred primary\",\"mesh_code\":\"\",\"title\":\"Carbohydrate modified diet\"}]},\"umls\":{\"codes\":[{\"code\":\"C0561915\",\"title\":\"Dietary treatment for disorder\"},{\"code\":\"C5779563\",\"title\":\"Carbohydrate modified diet\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Token": {
+                "80_88_Token": {
+                    "begin": 80,
+                    "end": 88,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "89": {
+            "Token": {
+                "89_96_Token": {
+                    "begin": 89,
+                    "end": 96,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "96": {
+            "Token": {
+                "96_97_Token": {
+                    "begin": 96,
+                    "end": 97,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "99": {
+            "Token": {
+                "99_101_Token": {
+                    "begin": 99,
+                    "end": 101,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "99_287_Sentence": {
+                    "begin": 99,
+                    "end": 287,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "102": {
+            "Token": {
+                "102_106_Token": {
+                    "begin": 102,
+                    "end": 106,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "107": {
+            "Token": {
+                "107_111_Token": {
+                    "begin": 107,
+                    "end": 111,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "112": {
+            "Token": {
+                "112_118_Token": {
+                    "begin": 112,
+                    "end": 118,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "119": {
+            "Token": {
+                "119_131_Token": {
+                    "begin": 119,
+                    "end": 131,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "131": {
+            "Token": {
+                "131_132_Token": {
+                    "begin": 131,
+                    "end": 132,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "133": {
+            "Token": {
+                "133_143_Token": {
+                    "begin": 133,
+                    "end": 143,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "144": {
+            "Token": {
+                "144_153_Token": {
+                    "begin": 144,
+                    "end": 153,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "154": {
+            "Token": {
+                "154_157_Token": {
+                    "begin": 154,
+                    "end": 157,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "158": {
+            "Token": {
+                "158_166_Token": {
+                    "begin": 158,
+                    "end": 166,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "166": {
+            "Token": {
+                "166_167_Token": {
+                    "begin": 166,
+                    "end": 167,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "168": {
+            "Token": {
+                "168_172_Token": {
+                    "begin": 168,
+                    "end": 172,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "173": {
+            "Token": {
+                "173_176_Token": {
+                    "begin": 173,
+                    "end": 176,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "177": {
+            "Entity": {
+                "177_191_Entity_drug": {
+                    "semantic": "drug",
+                    "umlsConcepts": [],
+                    "begin": 177,
+                    "end": 191,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.04225421042905012",
+                        "origin": "model",
+                        "concept_prob": "0.9091208178672674",
+                        "combinationType": "14_drug",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Lantus\",\"lexical_code\":\"138514\",\"default_lexical_title\":\"Lantus\",\"default_lexical_code\":\"138514\",\"confidence\":\"0.99\"},\"cvx\":{\"codes\":[]},\"fda_biosimilar\":{\"bla_number\":\"\",\"ref_product_proper_name\":\"\",\"ref_product_proprietary_name\":\"\"},\"ndc\":{\"codes\":[]},\"rxnorm\":{\"codes\":[{\"rxnorm_code\":\"261551\",\"rxnorm_titles\":[{\"title\":\"lantus\",\"title_type\":\"BN\"}]}]},\"umls\":{\"codes\":[{\"code\":\"C0876064\",\"title\":\"Lantus\"},{\"code\":\"C0907402\",\"title\":\"insulin glargine\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Token": {
+                "177_183_Token": {
+                    "begin": 177,
+                    "end": 183,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "184": {
+            "Token": {
+                "184_191_Token": {
+                    "begin": 184,
+                    "end": 191,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "191": {
+            "Token": {
+                "191_192_Token": {
+                    "begin": 191,
+                    "end": 192,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "193": {
+            "Token": {
+                "193_198_Token": {
+                    "begin": 193,
+                    "end": 198,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "199": {
+            "Token": {
+                "199_201_Token": {
+                    "begin": 199,
+                    "end": 201,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "202": {
+            "Token": {
+                "202_205_Token": {
+                    "begin": 202,
+                    "end": 205,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "206": {
+            "Token": {
+                "206_210_Token": {
+                    "begin": 206,
+                    "end": 210,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "211": {
+            "Token": {
+                "211_217_Token": {
+                    "begin": 211,
+                    "end": 217,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "218": {
+            "Token": {
+                "218_220_Token": {
+                    "begin": 218,
+                    "end": 220,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "221": {
+            "Token": {
+                "221_226_Token": {
+                    "begin": 221,
+                    "end": 226,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "227": {
+            "Token": {
+                "227_229_Token": {
+                    "begin": 227,
+                    "end": 229,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "230": {
+            "Token": {
+                "230_234_Token": {
+                    "begin": 230,
+                    "end": 234,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "235": {
+            "Token": {
+                "235_237_Token": {
+                    "begin": 235,
+                    "end": 237,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "238": {
+            "Token": {
+                "238_241_Token": {
+                    "begin": 238,
+                    "end": 241,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "242": {
+            "Entity": {
+                "242_255_Entity_dosage": {
+                    "semantic": "dosage",
+                    "umlsConcepts": [],
+                    "begin": 242,
+                    "end": 255,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Relation": {
+                "256_271_Entity_drug_242_255_Entity_dosage_Relation_drug-dosage": {
+                    "semantic": "drug-dosage",
+                    "fromEnt": {
+                        "semantic": "drug",
+                        "umlsConcepts": [],
+                        "begin": 256,
+                        "end": 271,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.04225421042905012",
+                            "concept_prob": "0.8723609341526999"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "dosage",
+                        "umlsConcepts": [],
+                        "begin": 242,
+                        "end": 255,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 242,
+                    "end": 271,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "242_249_Token": {
+                    "begin": 242,
+                    "end": 249,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "250": {
+            "Token": {
+                "250_255_Token": {
+                    "begin": 250,
+                    "end": 255,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "256": {
+            "Entity": {
+                "256_271_Entity_drug": {
+                    "semantic": "drug",
+                    "umlsConcepts": [],
+                    "begin": 256,
+                    "end": 271,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.04225421042905012",
+                        "origin": "model",
+                        "concept_prob": "0.8723609341526999",
+                        "combinationType": "29_drug",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"insulin lispro cartridge [humalog]\",\"lexical_code\":\"1495594158\",\"default_lexical_title\":\"insulin lispro cartridge [humalog]\",\"default_lexical_code\":\"1495594158\",\"confidence\":\"0.502\"},\"cvx\":{\"codes\":[]},\"fda_biosimilar\":{\"bla_number\":\"\",\"ref_product_proper_name\":\"\",\"ref_product_proprietary_name\":\"\"},\"ndc\":{\"codes\":[]},\"rxnorm\":{\"codes\":[{\"rxnorm_code\":\"1652645\",\"rxnorm_titles\":[{\"title\":\"insulin lispro cartridge [humalog]\",\"title_type\":\"SBDF\"}]}]},\"umls\":{\"codes\":[]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": "",
+                        "linked_entities": "[242_255_Entity_dosage]"
+                    }
+                }
+            },
+            "Token": {
+                "256_263_Token": {
+                    "begin": 256,
+                    "end": 263,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "264": {
+            "Token": {
+                "264_271_Token": {
+                    "begin": 264,
+                    "end": 271,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "272": {
+            "Token": {
+                "272_277_Token": {
+                    "begin": 272,
+                    "end": 277,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "278": {
+            "Token": {
+                "278_280_Token": {
+                    "begin": 278,
+                    "end": 280,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "281": {
+            "Token": {
+                "281_286_Token": {
+                    "begin": 281,
+                    "end": 286,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "286": {
+            "Token": {
+                "286_287_Token": {
+                    "begin": 286,
+                    "end": 287,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "289": {
+            "Token": {
+                "289_296_Token": {
+                    "begin": 289,
+                    "end": 296,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "289_566_Sentence": {
+                    "begin": 289,
+                    "end": 566,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "297": {
+            "Token": {
+                "297_305_Token": {
+                    "begin": 297,
+                    "end": 305,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "306": {
+            "Token": {
+                "306_315_Token": {
+                    "begin": 306,
+                    "end": 315,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "316": {
+            "Token": {
+                "316_318_Token": {
+                    "begin": 316,
+                    "end": 318,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "319": {
+            "Token": {
+                "319_322_Token": {
+                    "begin": 319,
+                    "end": 322,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "323": {
+            "Entity": {
+                "323_338_Entity_drug": {
+                    "semantic": "drug",
+                    "umlsConcepts": [],
+                    "begin": 323,
+                    "end": 338,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.05813291059650611",
+                        "origin": "model",
+                        "concept_prob": "0.4508142802999506",
+                        "combinationType": "15_drug",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"{21 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Altavera 28 Day]\",\"lexical_code\":\"25615858\",\"default_lexical_title\":\"{21 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Altavera 28 Day]\",\"default_lexical_code\":\"25615858\",\"confidence\":\"0.305\"},\"cvx\":{\"codes\":[]},\"fda_biosimilar\":{\"bla_number\":\"\",\"ref_product_proper_name\":\"\",\"ref_product_proprietary_name\":\"\"},\"ndc\":{\"codes\":[{\"ndc_code\":\"70700-116\",\"ndc_metadata\":[{\"active_ingredients\":[],\"brand_name\":\"altavera\",\"dosage_form\":\"kit\",\"generic_name\":\"levonorgestrel and ethinyl estradiol\",\"labeler_name\":\"xiromed, llc.\",\"pharm_class\":[],\"route\":[]}]},{\"ndc_code\":\"63629-2343\",\"ndc_metadata\":[{\"active_ingredients\":[],\"brand_name\":\"altavera\",\"dosage_form\":\"kit\",\"generic_name\":\"levonorgestrel and ethinyl estradiol\",\"labeler_name\":\"bryant ranch prepack\",\"pharm_class\":[],\"route\":[]}]}]},\"rxnorm\":{\"codes\":[{\"rxnorm_code\":\"1006065\",\"rxnorm_titles\":[{\"title\":\"altavera 28 day regimen\",\"title_type\":\"SY\"},{\"title\":\"{21 (ethinyl estradiol 0.03 mg / levonorgestrel 0.15 mg oral tablet) / 7 (inert ingredients 1 mg oral tablet) } pack [altavera 28 day]\",\"title_type\":\"BPCK\"},{\"title\":\"altavera 28 day pack\",\"title_type\":\"PSN\"}]}]},\"umls\":{\"codes\":[]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Token": {
+                "323_330_Token": {
+                    "begin": 323,
+                    "end": 330,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "331": {
+            "Token": {
+                "331_338_Token": {
+                    "begin": 331,
+                    "end": 338,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "338": {
+            "Token": {
+                "338_339_Token": {
+                    "begin": 338,
+                    "end": 339,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "340": {
+            "Token": {
+                "340_343_Token": {
+                    "begin": 340,
+                    "end": 343,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "344": {
+            "Token": {
+                "344_353_Token": {
+                    "begin": 344,
+                    "end": 353,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "354": {
+            "Token": {
+                "354_356_Token": {
+                    "begin": 354,
+                    "end": 356,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "357": {
+            "Token": {
+                "357_361_Token": {
+                    "begin": 357,
+                    "end": 361,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "362": {
+            "Entity": {
+                "362_389_Entity_problem": {
+                    "semantic": "problem",
+                    "umlsConcepts": [],
+                    "begin": 362,
+                    "end": 389,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.05813291059650611",
+                        "origin": "model",
+                        "concept_prob": "0.9732017288271118",
+                        "combinationType": "27_problem",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Hypoglycemia\",\"lexical_code\":\"46950\",\"default_lexical_title\":\"Hypoglycemia\",\"default_lexical_code\":\"46950\",\"confidence\":\"0.854\"},\"icd10cm\":{\"codes\":[{\"code\":\"E16.2\",\"code_metadata\":{\"ccsr\":[{\"ccsr_category\":\"END015\",\"ccsr_description\":\"Other specified and unspecified endocrine disorders\"}],\"hcc\":[]},\"map_type\":\"Preferred primary\",\"relationship_type\":\"Same as\",\"title\":\"Hypoglycemia, unspecified\"}]},\"icd9cm\":{\"codes\":[{\"code\":\"251.2\",\"map_type\":\"Preferred primary\",\"title\":\"Hypoglycemia, unspecified\"}]},\"snomedInternational\":{\"codes\":[{\"code\":\"302866003\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"D007003\",\"relationship_type\":\"Same as\",\"title\":\"Hypoglycemia\"}]},\"umls\":{\"codes\":[{\"code\":\"C0020615\",\"title\":\"Hypoglycemia\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Relation": {
+                "362_389_Entity_problem_411_418_Entity_temporal_Relation_problem-temporal": {
+                    "semantic": "problem-temporal",
+                    "fromEnt": {
+                        "semantic": "problem",
+                        "umlsConcepts": [],
+                        "begin": 362,
+                        "end": 389,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.05813291059650611",
+                            "concept_prob": "0.9732017288271118"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "temporal",
+                        "umlsConcepts": [],
+                        "begin": 411,
+                        "end": 418,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 362,
+                    "end": 418,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "362_370_Token": {
+                    "begin": 362,
+                    "end": 370,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "371": {
+            "Token": {
+                "371_374_Token": {
+                    "begin": 371,
+                    "end": 374,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "375": {
+            "Token": {
+                "375_380_Token": {
+                    "begin": 375,
+                    "end": 380,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "381": {
+            "Token": {
+                "381_389_Token": {
+                    "begin": 381,
+                    "end": 389,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "389": {
+            "Token": {
+                "389_390_Token": {
+                    "begin": 389,
+                    "end": 390,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "391": {
+            "Token": {
+                "391_395_Token": {
+                    "begin": 391,
+                    "end": 395,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "396": {
+            "Token": {
+                "396_403_Token": {
+                    "begin": 396,
+                    "end": 403,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "404": {
+            "Token": {
+                "404_406_Token": {
+                    "begin": 404,
+                    "end": 406,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "407": {
+            "Token": {
+                "407_410_Token": {
+                    "begin": 407,
+                    "end": 410,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "411": {
+            "Entity": {
+                "411_418_Entity_temporal": {
+                    "semantic": "temporal",
+                    "umlsConcepts": [],
+                    "begin": 411,
+                    "end": 418,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Relation": {
+                "428_436_Entity_test_411_418_Entity_temporal_Relation_test-temporal": {
+                    "semantic": "test-temporal",
+                    "fromEnt": {
+                        "semantic": "test",
+                        "umlsConcepts": [],
+                        "begin": 428,
+                        "end": 436,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.05813291059650611",
+                            "concept_prob": "0.7048043342912365"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "temporal",
+                        "umlsConcepts": [],
+                        "begin": 411,
+                        "end": 418,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 411,
+                    "end": 436,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "411_418_Token": {
+                    "begin": 411,
+                    "end": 418,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "419": {
+            "Token": {
+                "419_423_Token": {
+                    "begin": 419,
+                    "end": 423,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "424": {
+            "Token": {
+                "424_427_Token": {
+                    "begin": 424,
+                    "end": 427,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "428": {
+            "Entity": {
+                "428_436_Entity_test": {
+                    "semantic": "test",
+                    "umlsConcepts": [],
+                    "begin": 428,
+                    "end": 436,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.05813291059650611",
+                        "origin": "model",
+                        "concept_prob": "0.7048043342912365",
+                        "combinationType": "8_test",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Glucose measurement\",\"lexical_code\":\"28894435\",\"default_lexical_title\":\"Glucose measurement\",\"default_lexical_code\":\"28894435\",\"confidence\":\"0.748\"},\"cpt\":{\"codes\":[{\"code\":\"82947\",\"long_title\":\"Glucose; quantitative, blood (except reagent strip)\",\"map_type\":\"One of these codes\",\"title\":\"Assay glucose blood quant\"},{\"code\":\"82945\",\"long_title\":\"Glucose, body fluid, other than blood\",\"map_type\":\"One of these codes\",\"title\":\"Glucose other fluid\"}]},\"hcpcs\":{\"codes\":[]},\"icd10pcs\":{\"codes\":[]},\"loinc\":{\"codes\":[],\"map_context\":\"INSUFFICIENT INFORMATION\"},\"snomedInternational\":{\"codes\":[{\"code\":\"36048009\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"\",\"title\":\"Glucose measurement\"}]},\"umls\":{\"codes\":[{\"code\":\"C0337438\",\"title\":\"Glucose measurement\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Relation": {
+                "428_436_Entity_test_454_457_Entity_labvalue_Relation_test-labvalue": {
+                    "semantic": "test-labvalue",
+                    "fromEnt": {
+                        "semantic": "test",
+                        "umlsConcepts": [],
+                        "begin": 428,
+                        "end": 436,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.05813291059650611",
+                            "concept_prob": "0.7048043342912365"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "labvalue",
+                        "umlsConcepts": [],
+                        "begin": 454,
+                        "end": 457,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 428,
+                    "end": 457,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "428_436_Token": {
+                    "begin": 428,
+                    "end": 436,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "437": {
+            "Token": {
+                "437_441_Token": {
+                    "begin": 437,
+                    "end": 441,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "442": {
+            "Token": {
+                "442_446_Token": {
+                    "begin": 442,
+                    "end": 446,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "447": {
+            "Token": {
+                "447_449_Token": {
+                    "begin": 447,
+                    "end": 449,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "450": {
+            "Token": {
+                "450_453_Token": {
+                    "begin": 450,
+                    "end": 453,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "454": {
+            "Entity": {
+                "454_457_Entity_labvalue": {
+                    "semantic": "labvalue",
+                    "umlsConcepts": [],
+                    "begin": 454,
+                    "end": 457,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Token": {
+                "454_457_Token": {
+                    "begin": 454,
+                    "end": 457,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "458": {
+            "Token": {
+                "458_465_Token": {
+                    "begin": 458,
+                    "end": 465,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "466": {
+            "Token": {
+                "466_476_Token": {
+                    "begin": 466,
+                    "end": 476,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "477": {
+            "Token": {
+                "477_480_Token": {
+                    "begin": 477,
+                    "end": 480,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "481": {
+            "Entity": {
+                "481_495_Entity_drug": {
+                    "semantic": "drug",
+                    "umlsConcepts": [],
+                    "begin": 481,
+                    "end": 495,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.05813291059650611",
+                        "origin": "model",
+                        "concept_prob": "0.9130085941765314",
+                        "combinationType": "26_drug",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"insulin glargine 100 unt/ml pen injector [lantus]\",\"lexical_code\":\"1495618714\",\"default_lexical_title\":\"insulin glargine 100 unt/ml pen injector [lantus]\",\"default_lexical_code\":\"1495618714\",\"confidence\":\"0.858\"},\"cvx\":{\"codes\":[]},\"fda_biosimilar\":{\"bla_number\":\"\",\"ref_product_proper_name\":\"\",\"ref_product_proprietary_name\":\"\"},\"ndc\":{\"codes\":[]},\"rxnorm\":{\"codes\":[{\"rxnorm_code\":\"1359856\",\"rxnorm_titles\":[{\"title\":\"lantus 100 unt/ml pen injector\",\"title_type\":\"SY\"},{\"title\":\"insulin glargine 100 unt/ml pen injector [lantus]\",\"title_type\":\"SBD\"}]}]},\"umls\":{\"codes\":[]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": "",
+                        "linked_entities": "[508_516_Entity_dosage, 525_533_Entity_dosage]"
+                    }
+                }
+            },
+            "Relation": {
+                "481_495_Entity_drug_525_533_Entity_dosage_Relation_drug-dosage": {
+                    "semantic": "drug-dosage",
+                    "fromEnt": {
+                        "semantic": "drug",
+                        "umlsConcepts": [],
+                        "begin": 481,
+                        "end": 495,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.05813291059650611",
+                            "concept_prob": "0.9130085941765314"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "dosage",
+                        "umlsConcepts": [],
+                        "begin": 525,
+                        "end": 533,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 481,
+                    "end": 533,
+                    "type": "Relation",
+                    "attrs": {}
+                },
+                "481_495_Entity_drug_508_516_Entity_dosage_Relation_drug-dosage": {
+                    "semantic": "drug-dosage",
+                    "fromEnt": {
+                        "semantic": "drug",
+                        "umlsConcepts": [],
+                        "begin": 481,
+                        "end": 495,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.05813291059650611",
+                            "concept_prob": "0.9130085941765314"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "dosage",
+                        "umlsConcepts": [],
+                        "begin": 508,
+                        "end": 516,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 481,
+                    "end": 516,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "481_487_Token": {
+                    "begin": 481,
+                    "end": 487,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "488": {
+            "Token": {
+                "488_495_Token": {
+                    "begin": 488,
+                    "end": 495,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "496": {
+            "Token": {
+                "496_500_Token": {
+                    "begin": 496,
+                    "end": 500,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "501": {
+            "Token": {
+                "501_507_Token": {
+                    "begin": 501,
+                    "end": 507,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "508": {
+            "Entity": {
+                "508_516_Entity_dosage": {
+                    "semantic": "dosage",
+                    "umlsConcepts": [],
+                    "begin": 508,
+                    "end": 516,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Token": {
+                "508_510_Token": {
+                    "begin": 508,
+                    "end": 510,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "511": {
+            "Token": {
+                "511_516_Token": {
+                    "begin": 511,
+                    "end": 516,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "517": {
+            "Token": {
+                "517_521_Token": {
+                    "begin": 517,
+                    "end": 521,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "522": {
+            "Token": {
+                "522_524_Token": {
+                    "begin": 522,
+                    "end": 524,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "525": {
+            "Entity": {
+                "525_533_Entity_dosage": {
+                    "semantic": "dosage",
+                    "umlsConcepts": [],
+                    "begin": 525,
+                    "end": 533,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Token": {
+                "525_527_Token": {
+                    "begin": 525,
+                    "end": 527,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "528": {
+            "Token": {
+                "528_533_Token": {
+                    "begin": 528,
+                    "end": 533,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "533": {
+            "Token": {
+                "533_534_Token": {
+                    "begin": 533,
+                    "end": 534,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "535": {
+            "Token": {
+                "535_540_Token": {
+                    "begin": 535,
+                    "end": 540,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "541": {
+            "Token": {
+                "541_543_Token": {
+                    "begin": 541,
+                    "end": 543,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "544": {
+            "Token": {
+                "544_545_Token": {
+                    "begin": 544,
+                    "end": 545,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "546": {
+            "Entity": {
+                "546_565_Entity_problem": {
+                    "semantic": "problem",
+                    "umlsConcepts": [],
+                    "begin": 546,
+                    "end": 565,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.05813291059650611",
+                        "transformedTerm": "considerate change",
+                        "origin": "model",
+                        "concept_prob": "0.5454271498707782",
+                        "combinationType": "19_problem",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Considering quitting consumption of tobacco\",\"lexical_code\":\"38672620\",\"default_lexical_title\":\"Considering quitting use of tobacco\",\"default_lexical_code\":\"38672621\",\"confidence\":\"0.314\"},\"icd10cm\":{\"codes\":[],\"map_context\":\"NON-CODABLE\"},\"icd9cm\":{\"codes\":[],\"map_context\":\"NON-CODABLE\"},\"snomedInternational\":{\"codes\":[{\"code\":\"110483000\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"\",\"relationship_type\":\"Narrower than\",\"title\":\"Tobacco user\"}]},\"umls\":{\"codes\":[{\"code\":\"C3853727\",\"title\":\"Tobacco user\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": "Transformed unrecognized word 'considerable change' to 'considerate change'."
+                    }
+                }
+            },
+            "Token": {
+                "546_558_Token": {
+                    "begin": 546,
+                    "end": 558,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "559": {
+            "Token": {
+                "559_565_Token": {
+                    "begin": 559,
+                    "end": 565,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "565": {
+            "Token": {
+                "565_566_Token": {
+                    "begin": 565,
+                    "end": 566,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "568": {
+            "Token": {
+                "568_572_Token": {
+                    "begin": 568,
+                    "end": 572,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "568_673_Sentence": {
+                    "begin": 568,
+                    "end": 673,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "573": {
+            "Token": {
+                "573_574_Token": {
+                    "begin": 573,
+                    "end": 574,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "575": {
+            "Token": {
+                "575_581_Token": {
+                    "begin": 575,
+                    "end": 581,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "582": {
+            "Token": {
+                "582_589_Token": {
+                    "begin": 582,
+                    "end": 589,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "590": {
+            "Token": {
+                "590_592_Token": {
+                    "begin": 590,
+                    "end": 592,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "593": {
+            "Token": {
+                "593_596_Token": {
+                    "begin": 593,
+                    "end": 596,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "597": {
+            "Token": {
+                "597_600_Token": {
+                    "begin": 597,
+                    "end": 600,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "601": {
+            "Entity": {
+                "601_609_Entity_test": {
+                    "semantic": "test",
+                    "umlsConcepts": [],
+                    "begin": 601,
+                    "end": 609,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.06514639888516124",
+                        "origin": "model",
+                        "assertion_origin": "dictionary",
+                        "concept_prob": "0.8648709544609982",
+                        "combinationType": "8_test",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Glucose measurement\",\"lexical_code\":\"28894435\",\"default_lexical_title\":\"Glucose measurement\",\"default_lexical_code\":\"28894435\",\"confidence\":\"0.748\"},\"cpt\":{\"codes\":[{\"code\":\"82947\",\"long_title\":\"Glucose; quantitative, blood (except reagent strip)\",\"map_type\":\"One of these codes\",\"title\":\"Assay glucose blood quant\"},{\"code\":\"82945\",\"long_title\":\"Glucose, body fluid, other than blood\",\"map_type\":\"One of these codes\",\"title\":\"Glucose other fluid\"}]},\"hcpcs\":{\"codes\":[]},\"icd10pcs\":{\"codes\":[]},\"loinc\":{\"codes\":[],\"map_context\":\"INSUFFICIENT INFORMATION\"},\"snomedInternational\":{\"codes\":[{\"code\":\"36048009\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"\",\"title\":\"Glucose measurement\"}]},\"umls\":{\"codes\":[{\"code\":\"C0337438\",\"title\":\"Glucose measurement\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "absent",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Token": {
+                "601_609_Token": {
+                    "begin": 601,
+                    "end": 609,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "610": {
+            "Token": {
+                "610_614_Token": {
+                    "begin": 610,
+                    "end": 614,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "615": {
+            "Token": {
+                "615_618_Token": {
+                    "begin": 615,
+                    "end": 618,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "619": {
+            "Token": {
+                "619_625_Token": {
+                    "begin": 619,
+                    "end": 625,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "626": {
+            "Token": {
+                "626_633_Token": {
+                    "begin": 626,
+                    "end": 633,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "634": {
+            "Token": {
+                "634_636_Token": {
+                    "begin": 634,
+                    "end": 636,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "637": {
+            "Token": {
+                "637_640_Token": {
+                    "begin": 637,
+                    "end": 640,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "641": {
+            "Token": {
+                "641_648_Token": {
+                    "begin": 641,
+                    "end": 648,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "649": {
+            "Token": {
+                "649_652_Token": {
+                    "begin": 649,
+                    "end": 652,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "653": {
+            "Token": {
+                "653_661_Token": {
+                    "begin": 653,
+                    "end": 661,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "662": {
+            "Token": {
+                "662_664_Token": {
+                    "begin": 662,
+                    "end": 664,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "665": {
+            "Entity": {
+                "665_672_Entity_drug": {
+                    "semantic": "drug",
+                    "umlsConcepts": [],
+                    "begin": 665,
+                    "end": 672,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.06514639888516124",
+                        "origin": "model",
+                        "assertion_origin": "dictionary",
+                        "concept_prob": "0.964958095942213",
+                        "combinationType": "7_drug",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"insulin-like growth factor 2, human\",\"lexical_code\":\"68207431\",\"default_lexical_title\":\"insulin-like growth factor 2, human\",\"default_lexical_code\":\"68207431\",\"confidence\":\"0.298\"},\"cvx\":{\"codes\":[]},\"fda_biosimilar\":{\"bla_number\":\"\",\"ref_product_proper_name\":\"\",\"ref_product_proprietary_name\":\"\"},\"ndc\":{\"codes\":[]},\"rxnorm\":{\"codes\":[{\"rxnorm_code\":\"1728769\",\"rxnorm_titles\":[{\"title\":\"insulin-like growth factor 2, human\",\"title_type\":\"PIN\"}]}]},\"umls\":{\"codes\":[{\"code\":\"C1569730\",\"title\":\"insulin-like growth factor 2, human\"},{\"code\":\"C0021666\",\"title\":\"insulin-like growth factor 2\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "absent",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Token": {
+                "665_672_Token": {
+                    "begin": 665,
+                    "end": 672,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "672": {
+            "Token": {
+                "672_673_Token": {
+                    "begin": 672,
+                    "end": 673,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "675": {
+            "Token": {
+                "675_678_Token": {
+                    "begin": 675,
+                    "end": 678,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "675_764_Sentence": {
+                    "begin": 675,
+                    "end": 764,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "679": {
+            "Token": {
+                "679_684_Token": {
+                    "begin": 679,
+                    "end": 684,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "685": {
+            "Token": {
+                "685_692_Token": {
+                    "begin": 685,
+                    "end": 692,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "693": {
+            "Token": {
+                "693_695_Token": {
+                    "begin": 693,
+                    "end": 695,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "696": {
+            "Token": {
+                "696_698_Token": {
+                    "begin": 696,
+                    "end": 698,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "699": {
+            "Token": {
+                "699_703_Token": {
+                    "begin": 699,
+                    "end": 703,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "704": {
+            "Token": {
+                "704_707_Token": {
+                    "begin": 704,
+                    "end": 707,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "708": {
+            "Token": {
+                "708_716_Token": {
+                    "begin": 708,
+                    "end": 716,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "717": {
+            "Token": {
+                "717_719_Token": {
+                    "begin": 717,
+                    "end": 719,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "720": {
+            "Token": {
+                "720_724_Token": {
+                    "begin": 720,
+                    "end": 724,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "725": {
+            "Token": {
+                "725_728_Token": {
+                    "begin": 725,
+                    "end": 728,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "729": {
+            "Token": {
+                "729_733_Token": {
+                    "begin": 729,
+                    "end": 733,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "734": {
+            "Token": {
+                "734_737_Token": {
+                    "begin": 734,
+                    "end": 737,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "738": {
+            "Token": {
+                "738_740_Token": {
+                    "begin": 738,
+                    "end": 740,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "741": {
+            "Token": {
+                "741_747_Token": {
+                    "begin": 741,
+                    "end": 747,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "748": {
+            "Token": {
+                "748_750_Token": {
+                    "begin": 748,
+                    "end": 750,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "751": {
+            "Token": {
+                "751_755_Token": {
+                    "begin": 751,
+                    "end": 755,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "756": {
+            "Token": {
+                "756_758_Token": {
+                    "begin": 756,
+                    "end": 758,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "759": {
+            "Token": {
+                "759_763_Token": {
+                    "begin": 759,
+                    "end": 763,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "763": {
+            "Token": {
+                "763_764_Token": {
+                    "begin": 763,
+                    "end": 764,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "766": {
+            "Token": {
+                "766_767_Token": {
+                    "begin": 766,
+                    "end": 767,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "766_789_Sentence": {
+                    "begin": 766,
+                    "end": 789,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "768": {
+            "Token": {
+                "768_774_Token": {
+                    "begin": 768,
+                    "end": 774,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "775": {
+            "Token": {
+                "775_777_Token": {
+                    "begin": 775,
+                    "end": 777,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "778": {
+            "Token": {
+                "778_782_Token": {
+                    "begin": 778,
+                    "end": 782,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "783": {
+            "Token": {
+                "783_788_Token": {
+                    "begin": 783,
+                    "end": 788,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "788": {
+            "Token": {
+                "788_789_Token": {
+                    "begin": 788,
+                    "end": 789,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "791": {
+            "Token": {
+                "791_794_Token": {
+                    "begin": 791,
+                    "end": 794,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "791_819_Sentence": {
+                    "begin": 791,
+                    "end": 819,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "795": {
+            "Token": {
+                "795_800_Token": {
+                    "begin": 795,
+                    "end": 800,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "801": {
+            "Token": {
+                "801_802_Token": {
+                    "begin": 801,
+                    "end": 802,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "803": {
+            "Entity": {
+                "803_809_Entity_severity": {
+                    "semantic": "severity",
+                    "umlsConcepts": [],
+                    "begin": 803,
+                    "end": 809,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Relation": {
+                "810_818_Entity_problem_803_809_Entity_severity_Relation_problem-severity": {
+                    "semantic": "problem-severity",
+                    "fromEnt": {
+                        "semantic": "problem",
+                        "umlsConcepts": [],
+                        "begin": 810,
+                        "end": 818,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "toEnt": {
+                        "semantic": "severity",
+                        "umlsConcepts": [],
+                        "begin": 803,
+                        "end": 809,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 803,
+                    "end": 818,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "803_809_Token": {
+                    "begin": 803,
+                    "end": 809,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "810": {
+            "Entity": {
+                "810_818_Entity_problem": {
+                    "semantic": "problem",
+                    "umlsConcepts": [],
+                    "begin": 810,
+                    "end": 818,
+                    "type": "Entity",
+                    "attrs": {
+                        "origin": "dictionary",
+                        "combinationType": "8_problem",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Fatigue\",\"lexical_code\":\"27337\",\"default_lexical_title\":\"Fatigue\",\"default_lexical_code\":\"27337\",\"confidence\":\"1\"},\"icd10cm\":{\"codes\":[{\"code\":\"R53.83\",\"code_metadata\":{\"ccsr\":[{\"ccsr_category\":\"SYM007\",\"ccsr_description\":\"Malaise and fatigue\"}],\"hcc\":[]},\"map_type\":\"Preferred primary\",\"relationship_type\":\"Narrower than\",\"title\":\"Other fatigue\"}]},\"icd9cm\":{\"codes\":[{\"code\":\"780.79\",\"map_type\":\"Preferred primary\",\"title\":\"Other malaise and fatigue\"}]},\"snomedInternational\":{\"codes\":[{\"code\":\"84229001\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"D005221\",\"relationship_type\":\"Same as\",\"title\":\"Fatigue\"}]},\"umls\":{\"codes\":[{\"code\":\"C0015672\",\"title\":\"Fatigue\"},{\"code\":\"C0695252\",\"title\":\"Other malaise and fatigue\"},{\"code\":\"C2830454\",\"title\":\"Other fatigue\"},{\"code\":\"C0023380\",\"title\":\"Lethargy\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": "",
+                        "linked_entities": "[803_809_Entity_severity]"
+                    }
+                }
+            },
+            "Token": {
+                "810_818_Token": {
+                    "begin": 810,
+                    "end": 818,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "818": {
+            "Token": {
+                "818_819_Token": {
+                    "begin": 818,
+                    "end": 819,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "821": {
+            "Token": {
+                "821_830_Token": {
+                    "begin": 821,
+                    "end": 830,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "821_858_Sentence": {
+                    "begin": 821,
+                    "end": 858,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "830": {
+            "Token": {
+                "830_831_Token": {
+                    "begin": 830,
+                    "end": 831,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "832": {
+            "Token": {
+                "832_835_Token": {
+                    "begin": 832,
+                    "end": 835,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "836": {
+            "Token": {
+                "836_838_Token": {
+                    "begin": 836,
+                    "end": 838,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "839": {
+            "Token": {
+                "839_844_Token": {
+                    "begin": 839,
+                    "end": 844,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "845": {
+            "Token": {
+                "845_849_Token": {
+                    "begin": 845,
+                    "end": 849,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "849": {
+            "Token": {
+                "849_850_Token": {
+                    "begin": 849,
+                    "end": 850,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "850": {
+            "Token": {
+                "850_858_Token": {
+                    "begin": 850,
+                    "end": 858,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "859": {
+            "Token": {
+                "859_870_Token": {
+                    "begin": 859,
+                    "end": 870,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "859_896_Sentence": {
+                    "begin": 859,
+                    "end": 896,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "870": {
+            "Token": {
+                "870_871_Token": {
+                    "begin": 870,
+                    "end": 871,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "873": {
+            "Entity": {
+                "873_879_Entity_test": {
+                    "semantic": "test",
+                    "umlsConcepts": [],
+                    "begin": 873,
+                    "end": 879,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.029343698690955787",
+                        "origin": "model",
+                        "concept_prob": "0.6778150494458607",
+                        "combinationType": "6_test",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Measure vital signs\",\"lexical_code\":\"26747635\",\"default_lexical_title\":\"Measure vital signs\",\"default_lexical_code\":\"26747635\",\"confidence\":\"1\"},\"cpt\":{\"codes\":[]},\"hcpcs\":{\"codes\":[]},\"icd10pcs\":{\"codes\":[]},\"loinc\":{\"codes\":[{\"code\":\"29274-8\",\"map_type\":\"Preferred primary\",\"title\":\"Vital signs measurements:Find:Pt:^Patient:Multi\"}]},\"snomedInternational\":{\"codes\":[{\"code\":\"61746007\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"\",\"title\":\"Taking patient vital signs\"}]},\"umls\":{\"codes\":[{\"code\":\"C0150404\",\"title\":\"Taking vital signs\"},{\"code\":\"C0944753\",\"title\":\"Vital signs measurements:Find:Pt:^Patient:Multi\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Token": {
+                "873_879_Token": {
+                    "begin": 873,
+                    "end": 879,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "880": {
+            "Token": {
+                "880_882_Token": {
+                    "begin": 880,
+                    "end": 882,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "883": {
+            "Token": {
+                "883_885_Token": {
+                    "begin": 883,
+                    "end": 885,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "886": {
+            "Token": {
+                "886_889_Token": {
+                    "begin": 886,
+                    "end": 889,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "890": {
+            "Token": {
+                "890_895_Token": {
+                    "begin": 890,
+                    "end": 895,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "895": {
+            "Token": {
+                "895_896_Token": {
+                    "begin": 895,
+                    "end": 896,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "898": {
+            "Token": {
+                "898_901_Token": {
+                    "begin": 898,
+                    "end": 901,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "898_940_Sentence": {
+                    "begin": 898,
+                    "end": 940,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "902": {
+            "Token": {
+                "902_909_Token": {
+                    "begin": 902,
+                    "end": 909,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "910": {
+            "Token": {
+                "910_912_Token": {
+                    "begin": 910,
+                    "end": 912,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "913": {
+            "Token": {
+                "913_914_Token": {
+                    "begin": 913,
+                    "end": 914,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "915": {
+            "Token": {
+                "915_923_Token": {
+                    "begin": 915,
+                    "end": 923,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "924": {
+            "Token": {
+                "924_927_Token": {
+                    "begin": 924,
+                    "end": 927,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "928": {
+            "Token": {
+                "928_939_Token": {
+                    "begin": 928,
+                    "end": 939,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "939": {
+            "Token": {
+                "939_940_Token": {
+                    "begin": 939,
+                    "end": 940,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "942": {
+            "Token": {
+                "942_945_Token": {
+                    "begin": 942,
+                    "end": 945,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "942_983_Sentence": {
+                    "begin": 942,
+                    "end": 983,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "946": {
+            "Token": {
+                "946_948_Token": {
+                    "begin": 946,
+                    "end": 948,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "949": {
+            "Token": {
+                "949_951_Token": {
+                    "begin": 949,
+                    "end": 951,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "952": {
+            "Entity": {
+                "952_954_Entity_negation": {
+                    "semantic": "negation",
+                    "umlsConcepts": [],
+                    "begin": 952,
+                    "end": 954,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Relation": {
+                "955_972_Entity_problem_952_954_Entity_negation_Relation_problem-negation": {
+                    "semantic": "problem-negation",
+                    "fromEnt": {
+                        "semantic": "problem",
+                        "umlsConcepts": [],
+                        "begin": 955,
+                        "end": 972,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.05125898515786021",
+                            "concept_prob": "0.9650936337969295"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "negation",
+                        "umlsConcepts": [],
+                        "begin": 952,
+                        "end": 954,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 952,
+                    "end": 972,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "952_954_Token": {
+                    "begin": 952,
+                    "end": 954,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "955": {
+            "Entity": {
+                "955_972_Entity_problem": {
+                    "semantic": "problem",
+                    "umlsConcepts": [],
+                    "begin": 955,
+                    "end": 972,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.05125898515786021",
+                        "origin": "model",
+                        "assertion_origin": "relation",
+                        "concept_prob": "0.9650936337969295",
+                        "combinationType": "17_problem",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Apparent life threatening event\",\"lexical_code\":\"739472\",\"default_lexical_title\":\"Apparent life threatening event\",\"default_lexical_code\":\"739472\",\"confidence\":\"0.333\"},\"icd10cm\":{\"codes\":[{\"code\":\"R68.13\",\"code_metadata\":{\"ccsr\":[{\"ccsr_category\":\"SYM016\",\"ccsr_description\":\"Other general signs and symptoms\"}],\"hcc\":[]},\"map_type\":\"Preferred primary\",\"relationship_type\":\"Narrower than\",\"title\":\"Apparent life threatening event in infant (ALTE)\"}]},\"icd9cm\":{\"codes\":[{\"code\":\"799.82\",\"map_type\":\"Preferred primary\",\"title\":\"Apparent life threatening event in infant\"}]},\"snomedInternational\":{\"codes\":[{\"code\":\"405615003\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"\",\"relationship_type\":\"Narrower than\",\"title\":\"Notable event\"}]},\"umls\":{\"codes\":[{\"code\":\"C2712370\",\"title\":\"Apparent life threatening event in infant\"},{\"code\":\"C1320714\",\"title\":\"Notable event\"},{\"code\":\"C4303743\",\"title\":\"Brief, Resolved, Unexplained Event\"},{\"code\":\"C2729123\",\"title\":\"apparent life-threatening event in newborn\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "absent",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Token": {
+                "955_963_Token": {
+                    "begin": 955,
+                    "end": 963,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "964": {
+            "Token": {
+                "964_972_Token": {
+                    "begin": 964,
+                    "end": 972,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "972": {
+            "Token": {
+                "972_973_Token": {
+                    "begin": 972,
+                    "end": 973,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "973": {
+            "Token": {
+                "973_983_Token": {
+                    "begin": 973,
+                    "end": 983,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "984": {
+            "Token": {
+                "984_987_Token": {
+                    "begin": 984,
+                    "end": 987,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "984_1081_Sentence": {
+                    "begin": 984,
+                    "end": 1081,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "988": {
+            "Token": {
+                "988_992_Token": {
+                    "begin": 988,
+                    "end": 992,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "992": {
+            "Token": {
+                "992_993_Token": {
+                    "begin": 992,
+                    "end": 993,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "995": {
+            "Entity": {
+                "995_1004_Entity_problem": {
+                    "semantic": "problem",
+                    "umlsConcepts": [],
+                    "begin": 995,
+                    "end": 1004,
+                    "type": "Entity",
+                    "attrs": {
+                        "origin": "dictionary",
+                        "combinationType": "9_problem",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Diabetes mellitus\",\"lexical_code\":\"29688\",\"default_lexical_title\":\"Diabetes mellitus\",\"default_lexical_code\":\"29688\",\"confidence\":\"1\"},\"icd10cm\":{\"codes\":[{\"code\":\"E11.9\",\"code_metadata\":{\"ccsr\":[{\"ccsr_category\":\"END005\",\"ccsr_description\":\"Diabetes mellitus, Type 2\"},{\"ccsr_category\":\"END002\",\"ccsr_description\":\"Diabetes mellitus without complication\"}],\"hcc\":[{\"hcc_factors\":{\"community_fbdual_aged\":\"0.1860\",\"community_fbdual_disabled\":\"0.2350\",\"community_nondual_aged\":\"0.1660\",\"community_nondual_disabled\":\"0.1910\",\"community_pbdual_aged\":\"0.1660\",\"community_pbdual_disabled\":\"0.2100\",\"institutional\":\"0.2800\"},\"hcc_model_category\":\"38\",\"hcc_version\":\"v28\"}]},\"map_type\":\"Preferred primary\",\"relationship_type\":\"Broader than\",\"title\":\"Type 2 diabetes mellitus without complications\"}]},\"icd9cm\":{\"codes\":[{\"code\":\"250.00\",\"map_type\":\"Preferred primary\",\"title\":\"Type II or unspecified type diabetes mellitus without mention of complication, not stated as uncontrolled\"}]},\"snomedInternational\":{\"codes\":[{\"code\":\"73211009\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"D003920\",\"relationship_type\":\"Same as\",\"title\":\"Diabetes mellitus\"}]},\"umls\":{\"codes\":[{\"code\":\"C0011849\",\"title\":\"Diabetes Mellitus\"},{\"code\":\"C0494290\",\"title\":\"Non-insulin-dependent diabetes mellitus without complications\"},{\"code\":\"C0375113\",\"title\":\"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Relation": {
+                "995_1004_Entity_problem_1073_1080_Entity_temporal_Relation_problem-temporal": {
+                    "semantic": "problem-temporal",
+                    "fromEnt": {
+                        "semantic": "problem",
+                        "umlsConcepts": [],
+                        "begin": 995,
+                        "end": 1004,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "toEnt": {
+                        "semantic": "temporal",
+                        "umlsConcepts": [],
+                        "begin": 1073,
+                        "end": 1080,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 995,
+                    "end": 1080,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "995_1003_Token": {
+                    "begin": 995,
+                    "end": 1003,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1003": {
+            "Token": {
+                "1003_1004_Token": {
+                    "begin": 1003,
+                    "end": 1004,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1005": {
+            "Token": {
+                "1005_1010_Token": {
+                    "begin": 1005,
+                    "end": 1010,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1011": {
+            "Token": {
+                "1011_1015_Token": {
+                    "begin": 1011,
+                    "end": 1015,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1016": {
+            "Entity": {
+                "1016_1051_Entity_problem": {
+                    "semantic": "problem",
+                    "umlsConcepts": [],
+                    "begin": 1016,
+                    "end": 1051,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.06804121922084437",
+                        "origin": "model",
+                        "concept_prob": "0.9646934971592085",
+                        "combinationType": "35_problem",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Hypoglycemia\",\"lexical_code\":\"46950\",\"default_lexical_title\":\"Hypoglycemia\",\"default_lexical_code\":\"46950\",\"confidence\":\"0.764\"},\"icd10cm\":{\"codes\":[{\"code\":\"E16.2\",\"code_metadata\":{\"ccsr\":[{\"ccsr_category\":\"END015\",\"ccsr_description\":\"Other specified and unspecified endocrine disorders\"}],\"hcc\":[]},\"map_type\":\"Preferred primary\",\"relationship_type\":\"Same as\",\"title\":\"Hypoglycemia, unspecified\"}]},\"icd9cm\":{\"codes\":[{\"code\":\"251.2\",\"map_type\":\"Preferred primary\",\"title\":\"Hypoglycemia, unspecified\"}]},\"snomedInternational\":{\"codes\":[{\"code\":\"302866003\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"D007003\",\"relationship_type\":\"Same as\",\"title\":\"Hypoglycemia\"}]},\"umls\":{\"codes\":[{\"code\":\"C0020615\",\"title\":\"Hypoglycemia\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Relation": {
+                "1016_1051_Entity_problem_1073_1080_Entity_temporal_Relation_problem-temporal": {
+                    "semantic": "problem-temporal",
+                    "fromEnt": {
+                        "semantic": "problem",
+                        "umlsConcepts": [],
+                        "begin": 1016,
+                        "end": 1051,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.06804121922084437",
+                            "concept_prob": "0.9646934971592085"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "temporal",
+                        "umlsConcepts": [],
+                        "begin": 1073,
+                        "end": 1080,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 1016,
+                    "end": 1080,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "1016_1020_Token": {
+                    "begin": 1016,
+                    "end": 1020,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1021": {
+            "Token": {
+                "1021_1032_Token": {
+                    "begin": 1021,
+                    "end": 1032,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1033": {
+            "Token": {
+                "1033_1036_Token": {
+                    "begin": 1033,
+                    "end": 1036,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1037": {
+            "Token": {
+                "1037_1042_Token": {
+                    "begin": 1037,
+                    "end": 1042,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1043": {
+            "Token": {
+                "1043_1051_Token": {
+                    "begin": 1043,
+                    "end": 1051,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1051": {
+            "Token": {
+                "1051_1052_Token": {
+                    "begin": 1051,
+                    "end": 1052,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1053": {
+            "Token": {
+                "1053_1057_Token": {
+                    "begin": 1053,
+                    "end": 1057,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1058": {
+            "Token": {
+                "1058_1065_Token": {
+                    "begin": 1058,
+                    "end": 1065,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1066": {
+            "Token": {
+                "1066_1068_Token": {
+                    "begin": 1066,
+                    "end": 1068,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1069": {
+            "Token": {
+                "1069_1072_Token": {
+                    "begin": 1069,
+                    "end": 1072,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1073": {
+            "Entity": {
+                "1073_1080_Entity_temporal": {
+                    "semantic": "temporal",
+                    "umlsConcepts": [],
+                    "begin": 1073,
+                    "end": 1080,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Token": {
+                "1073_1080_Token": {
+                    "begin": 1073,
+                    "end": 1080,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1080": {
+            "Token": {
+                "1080_1081_Token": {
+                    "begin": 1080,
+                    "end": 1081,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1083": {
+            "Token": {
+                "1083_1085_Token": {
+                    "begin": 1083,
+                    "end": 1085,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "1083_1227_Sentence": {
+                    "begin": 1083,
+                    "end": 1227,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "1086": {
+            "Token": {
+                "1086_1093_Token": {
+                    "begin": 1086,
+                    "end": 1093,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1094": {
+            "Token": {
+                "1094_1098_Token": {
+                    "begin": 1094,
+                    "end": 1098,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1099": {
+            "Token": {
+                "1099_1108_Token": {
+                    "begin": 1099,
+                    "end": 1108,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1108": {
+            "Token": {
+                "1108_1109_Token": {
+                    "begin": 1108,
+                    "end": 1109,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1110": {
+            "Token": {
+                "1110_1111_Token": {
+                    "begin": 1110,
+                    "end": 1111,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1112": {
+            "Token": {
+                "1112_1114_Token": {
+                    "begin": 1112,
+                    "end": 1114,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1115": {
+            "Token": {
+                "1115_1120_Token": {
+                    "begin": 1115,
+                    "end": 1120,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1121": {
+            "Token": {
+                "1121_1123_Token": {
+                    "begin": 1121,
+                    "end": 1123,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1124": {
+            "Token": {
+                "1124_1128_Token": {
+                    "begin": 1124,
+                    "end": 1128,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1129": {
+            "Token": {
+                "1129_1132_Token": {
+                    "begin": 1129,
+                    "end": 1132,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1133": {
+            "Entity": {
+                "1133_1147_Entity_drug": {
+                    "semantic": "drug",
+                    "umlsConcepts": [],
+                    "begin": 1133,
+                    "end": 1147,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.04018290905294951",
+                        "origin": "model",
+                        "concept_prob": "0.8508708296305147",
+                        "combinationType": "14_drug",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Lantus\",\"lexical_code\":\"138514\",\"default_lexical_title\":\"Lantus\",\"default_lexical_code\":\"138514\",\"confidence\":\"0.99\"},\"cvx\":{\"codes\":[]},\"fda_biosimilar\":{\"bla_number\":\"\",\"ref_product_proper_name\":\"\",\"ref_product_proprietary_name\":\"\"},\"ndc\":{\"codes\":[]},\"rxnorm\":{\"codes\":[{\"rxnorm_code\":\"261551\",\"rxnorm_titles\":[{\"title\":\"lantus\",\"title_type\":\"BN\"}]}]},\"umls\":{\"codes\":[{\"code\":\"C0876064\",\"title\":\"Lantus\"},{\"code\":\"C0907402\",\"title\":\"insulin glargine\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Token": {
+                "1133_1139_Token": {
+                    "begin": 1133,
+                    "end": 1139,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1140": {
+            "Token": {
+                "1140_1147_Token": {
+                    "begin": 1140,
+                    "end": 1147,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1148": {
+            "Token": {
+                "1148_1155_Token": {
+                    "begin": 1148,
+                    "end": 1155,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1156": {
+            "Token": {
+                "1156_1159_Token": {
+                    "begin": 1156,
+                    "end": 1159,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1160": {
+            "Token": {
+                "1160_1168_Token": {
+                    "begin": 1160,
+                    "end": 1168,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1169": {
+            "Token": {
+                "1169_1172_Token": {
+                    "begin": 1169,
+                    "end": 1172,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1173": {
+            "Token": {
+                "1173_1177_Token": {
+                    "begin": 1173,
+                    "end": 1177,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1178": {
+            "Token": {
+                "1178_1184_Token": {
+                    "begin": 1178,
+                    "end": 1184,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1185": {
+            "Token": {
+                "1185_1188_Token": {
+                    "begin": 1185,
+                    "end": 1188,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1189": {
+            "Token": {
+                "1189_1203_Token": {
+                    "begin": 1189,
+                    "end": 1203,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1204": {
+            "Token": {
+                "1204_1208_Token": {
+                    "begin": 1204,
+                    "end": 1208,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1209": {
+            "Token": {
+                "1209_1211_Token": {
+                    "begin": 1209,
+                    "end": 1211,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1212": {
+            "Token": {
+                "1212_1214_Token": {
+                    "begin": 1212,
+                    "end": 1214,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1215": {
+            "Token": {
+                "1215_1218_Token": {
+                    "begin": 1215,
+                    "end": 1218,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1219": {
+            "Token": {
+                "1219_1226_Token": {
+                    "begin": 1219,
+                    "end": 1226,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1226": {
+            "Token": {
+                "1226_1227_Token": {
+                    "begin": 1226,
+                    "end": 1227,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1229": {
+            "Token": {
+                "1229_1232_Token": {
+                    "begin": 1229,
+                    "end": 1232,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "1229_1266_Sentence": {
+                    "begin": 1229,
+                    "end": 1266,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "1233": {
+            "Token": {
+                "1233_1237_Token": {
+                    "begin": 1233,
+                    "end": 1237,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1238": {
+            "Token": {
+                "1238_1241_Token": {
+                    "begin": 1238,
+                    "end": 1241,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1242": {
+            "Token": {
+                "1242_1244_Token": {
+                    "begin": 1242,
+                    "end": 1244,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1245": {
+            "Token": {
+                "1245_1250_Token": {
+                    "begin": 1245,
+                    "end": 1250,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1251": {
+            "Token": {
+                "1251_1253_Token": {
+                    "begin": 1251,
+                    "end": 1253,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1254": {
+            "Token": {
+                "1254_1257_Token": {
+                    "begin": 1254,
+                    "end": 1257,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1258": {
+            "Token": {
+                "1258_1265_Token": {
+                    "begin": 1258,
+                    "end": 1265,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1265": {
+            "Token": {
+                "1265_1266_Token": {
+                    "begin": 1265,
+                    "end": 1266,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1268": {
+            "Token": {
+                "1268_1269_Token": {
+                    "begin": 1268,
+                    "end": 1269,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "1268_1349_Sentence": {
+                    "begin": 1268,
+                    "end": 1349,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "1270": {
+            "Token": {
+                "1270_1272_Token": {
+                    "begin": 1270,
+                    "end": 1272,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1273": {
+            "Token": {
+                "1273_1277_Token": {
+                    "begin": 1273,
+                    "end": 1277,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1278": {
+            "Token": {
+                "1278_1288_Token": {
+                    "begin": 1278,
+                    "end": 1288,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1289": {
+            "Token": {
+                "1289_1293_Token": {
+                    "begin": 1289,
+                    "end": 1293,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1294": {
+            "Token": {
+                "1294_1299_Token": {
+                    "begin": 1294,
+                    "end": 1299,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1300": {
+            "Token": {
+                "1300_1303_Token": {
+                    "begin": 1300,
+                    "end": 1303,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1304": {
+            "Entity": {
+                "1304_1311_Entity_drug": {
+                    "semantic": "drug",
+                    "umlsConcepts": [],
+                    "begin": 1304,
+                    "end": 1311,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.05600537757063337",
+                        "origin": "model",
+                        "concept_prob": "0.9309831720147594",
+                        "combinationType": "21_drug",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Humalog\",\"lexical_code\":\"137823\",\"default_lexical_title\":\"Humalog\",\"default_lexical_code\":\"137823\",\"confidence\":\"0.99\"},\"cvx\":{\"codes\":[]},\"fda_biosimilar\":{\"bla_number\":\"\",\"ref_product_proper_name\":\"\",\"ref_product_proprietary_name\":\"\"},\"ndc\":{\"codes\":[]},\"rxnorm\":{\"codes\":[{\"rxnorm_code\":\"135805\",\"rxnorm_titles\":[{\"title\":\"humalog\",\"title_type\":\"BN\"}]}]},\"umls\":{\"codes\":[{\"code\":\"C0528249\",\"title\":\"Humalog\"},{\"code\":\"C0293359\",\"title\":\"insulin lispro\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": "",
+                        "linked_entities": "[1312_1325_Entity_dosage]"
+                    }
+                }
+            },
+            "Relation": {
+                "1304_1311_Entity_drug_1312_1325_Entity_dosage_Relation_drug-dosage": {
+                    "semantic": "drug-dosage",
+                    "fromEnt": {
+                        "semantic": "drug",
+                        "umlsConcepts": [],
+                        "begin": 1304,
+                        "end": 1311,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.05600537757063337",
+                            "concept_prob": "0.9309831720147594"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "dosage",
+                        "umlsConcepts": [],
+                        "begin": 1312,
+                        "end": 1325,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 1304,
+                    "end": 1325,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "1304_1311_Token": {
+                    "begin": 1304,
+                    "end": 1311,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1312": {
+            "Entity": {
+                "1312_1325_Entity_dosage": {
+                    "semantic": "dosage",
+                    "umlsConcepts": [],
+                    "begin": 1312,
+                    "end": 1325,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Relation": {
+                "1326_1333_Entity_drug_1312_1325_Entity_dosage_Relation_drug-dosage": {
+                    "semantic": "drug-dosage",
+                    "fromEnt": {
+                        "semantic": "drug",
+                        "umlsConcepts": [],
+                        "begin": 1326,
+                        "end": 1333,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.05600537757063337",
+                            "concept_prob": "0.9622340474344463"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "dosage",
+                        "umlsConcepts": [],
+                        "begin": 1312,
+                        "end": 1325,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 1312,
+                    "end": 1333,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "1312_1319_Token": {
+                    "begin": 1312,
+                    "end": 1319,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1320": {
+            "Token": {
+                "1320_1325_Token": {
+                    "begin": 1320,
+                    "end": 1325,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1326": {
+            "Entity": {
+                "1326_1333_Entity_drug": {
+                    "semantic": "drug",
+                    "umlsConcepts": [],
+                    "begin": 1326,
+                    "end": 1333,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.05600537757063337",
+                        "origin": "model",
+                        "concept_prob": "0.9622340474344463",
+                        "combinationType": "21_drug",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"shad scale pollen extract\",\"lexical_code\":\"25614827\",\"default_lexical_title\":\"shad scale pollen extract\",\"default_lexical_code\":\"25614827\",\"confidence\":\"0.345\"},\"cvx\":{\"codes\":[]},\"fda_biosimilar\":{\"bla_number\":\"\",\"ref_product_proper_name\":\"\",\"ref_product_proprietary_name\":\"\"},\"ndc\":{\"codes\":[]},\"rxnorm\":{\"codes\":[{\"rxnorm_code\":\"852087\",\"rxnorm_titles\":[{\"title\":\"atriplex confertifolia pollen extract\",\"title_type\":\"SY\"},{\"title\":\"shad scale pollen extract\",\"title_type\":\"IN\"}]}]},\"umls\":{\"codes\":[{\"code\":\"C0440016\",\"title\":\"Allergenic extract\"},{\"code\":\"C2701290\",\"title\":\"shad scale pollen extract\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": "",
+                        "linked_entities": "[1312_1325_Entity_dosage]"
+                    }
+                }
+            },
+            "Token": {
+                "1326_1333_Token": {
+                    "begin": 1326,
+                    "end": 1333,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1334": {
+            "Token": {
+                "1334_1339_Token": {
+                    "begin": 1334,
+                    "end": 1339,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1340": {
+            "Token": {
+                "1340_1342_Token": {
+                    "begin": 1340,
+                    "end": 1342,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1343": {
+            "Token": {
+                "1343_1348_Token": {
+                    "begin": 1343,
+                    "end": 1348,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1348": {
+            "Token": {
+                "1348_1349_Token": {
+                    "begin": 1348,
+                    "end": 1349,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1351": {
+            "Token": {
+                "1351_1352_Token": {
+                    "begin": 1351,
+                    "end": 1352,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            },
+            "Sentence": {
+                "1351_1400_Sentence": {
+                    "begin": 1351,
+                    "end": 1400,
+                    "type": "Sentence",
+                    "attrs": {}
+                }
+            }
+        },
+        "1353": {
+            "Token": {
+                "1353_1357_Token": {
+                    "begin": 1353,
+                    "end": 1357,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1358": {
+            "Token": {
+                "1358_1364_Token": {
+                    "begin": 1358,
+                    "end": 1364,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1365": {
+            "Token": {
+                "1365_1368_Token": {
+                    "begin": 1365,
+                    "end": 1368,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1369": {
+            "Entity": {
+                "1369_1383_Entity_test": {
+                    "semantic": "test",
+                    "umlsConcepts": [],
+                    "begin": 1369,
+                    "end": 1383,
+                    "type": "Entity",
+                    "attrs": {
+                        "sentence_prob": "0.05168317797591066",
+                        "origin": "model",
+                        "concept_prob": "0.912081135628228",
+                        "combinationType": "14_test",
+                        "codemaps": "{\"imo\":{\"lexical_title\":\"Glucose bld\",\"lexical_code\":\"2772842\",\"default_lexical_title\":\"Blood glucose measurement\",\"default_lexical_code\":\"602403\",\"confidence\":\"0.747\"},\"cpt\":{\"codes\":[{\"code\":\"82962\",\"long_title\":\"Glucose, blood by glucose monitoring device(s) cleared by the FDA specifically for home use\",\"map_type\":\"One of these codes\",\"title\":\"Glucose blood test\"},{\"code\":\"82947\",\"long_title\":\"Glucose; quantitative, blood (except reagent strip)\",\"map_type\":\"One of these codes\",\"title\":\"Assay glucose blood quant\"}]},\"hcpcs\":{\"codes\":[]},\"icd10pcs\":{\"codes\":[]},\"loinc\":{\"codes\":[{\"code\":\"41653-7\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:MCnc:Pt:BldC:Qn:Glucometer\"},{\"code\":\"39480-9\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:SCnc:Pt:BldV:Qn\"},{\"code\":\"51596-5\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:SCnc:Pt:BldC:Qn\"},{\"code\":\"2339-0\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:MCnc:Pt:Bld:Qn\"},{\"code\":\"47995-6\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:SCnc:Pt:BldCo:Qn\"},{\"code\":\"14743-9\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:SCnc:Pt:BldC:Qn:Glucometer\"},{\"code\":\"72516-8\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:SCnc:Pt:Bld:SemiQn:Test strip.automated\"},{\"code\":\"41651-1\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:MCnc:Pt:BldA:Qn\"},{\"code\":\"15074-8\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:SCnc:Pt:Bld:Qn\"},{\"code\":\"41652-9\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:MCnc:Pt:BldV:Qn\"},{\"code\":\"2341-6\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:MCnc:Pt:Bld:Qn:Test strip manual\"},{\"code\":\"74774-1\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:MCnc:Pt:Ser/Plas/Bld:Qn\"},{\"code\":\"32016-8\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:MCnc:Pt:BldC:Qn\"},{\"code\":\"14749-6\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:SCnc:Pt:Ser/Plas:Qn\"},{\"code\":\"39481-7\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:SCnc:Pt:BldA:Qn\"},{\"code\":\"77135-2\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:SCnc:Pt:Ser/Plas/Bld:Qn\"},{\"code\":\"2340-8\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:MCnc:Pt:Bld:SemiQn:Test strip.automated\"},{\"code\":\"2345-7\",\"map_type\":\"One of these codes\",\"title\":\"Glucose:MCnc:Pt:Ser/Plas:Qn\"}]},\"snomedInternational\":{\"codes\":[{\"code\":\"33747003\",\"map_type\":\"Preferred primary\",\"mesh_code\":\"\",\"title\":\"Glucose measurement, blood\"}]},\"umls\":{\"codes\":[{\"code\":\"C0364479\",\"title\":\"Glucose:MCnc:Pt:Bld:Qn\"},{\"code\":\"C0364480\",\"title\":\"Glucose:MCnc:Pt:Bld:SemiQn:Test strip.automated\"},{\"code\":\"C0364481\",\"title\":\"Glucose:MCnc:Pt:Bld:Qn:Test strip manual\"},{\"code\":\"C0392201\",\"title\":\"Blood glucose measurement\"},{\"code\":\"C0484731\",\"title\":\"Glucose:MCnc:Pt:Ser/Plas:Qn\"},{\"code\":\"C0797917\",\"title\":\"Glucose:SCnc:Pt:BldC:Qn:Glucometer\"},{\"code\":\"C0797923\",\"title\":\"Glucose:SCnc:Pt:Ser/Plas:Qn\"},{\"code\":\"C0798246\",\"title\":\"Glucose:SCnc:Pt:Bld:Qn\"},{\"code\":\"C1147700\",\"title\":\"Glucose:MCnc:Pt:BldC:Qn\"},{\"code\":\"C1543556\",\"title\":\"Glucose:SCnc:Pt:BldV:Qn\"},{\"code\":\"C1543557\",\"title\":\"Glucose:SCnc:Pt:BldA:Qn\"},{\"code\":\"C1641518\",\"title\":\"Glucose:MCnc:Pt:BldV:Qn\"},{\"code\":\"C1643233\",\"title\":\"Glucose:MCnc:Pt:BldA:Qn\"},{\"code\":\"C1645723\",\"title\":\"Glucose:MCnc:Pt:BldC:Qn:Glucometer\"},{\"code\":\"C1953334\",\"title\":\"Glucose:SCnc:Pt:BldCo:Qn\"},{\"code\":\"C2360269\",\"title\":\"Glucose:SCnc:Pt:BldC:Qn\"},{\"code\":\"C3533585\",\"title\":\"Glucose:SCnc:Pt:Bld:SemiQn:Test strip.automated\"},{\"code\":\"C3847148\",\"title\":\"Glucose:MCnc:Pt:Ser/Plas/Bld:Qn\"},{\"code\":\"C4037158\",\"title\":\"Glucose:SCnc:Pt:Ser/Plas/Bld:Qn\"}]}}",
+                        "section": "subjective_data",
+                        "assertion": "present",
+                        "explanation": ""
+                    }
+                }
+            },
+            "Relation": {
+                "1369_1383_Entity_test_1390_1399_Entity_temporal_Relation_test-temporal": {
+                    "semantic": "test-temporal",
+                    "fromEnt": {
+                        "semantic": "test",
+                        "umlsConcepts": [],
+                        "begin": 1369,
+                        "end": 1383,
+                        "type": "Entity",
+                        "attrs": {
+                            "sentence_prob": "0.05168317797591066",
+                            "concept_prob": "0.912081135628228"
+                        }
+                    },
+                    "toEnt": {
+                        "semantic": "temporal",
+                        "umlsConcepts": [],
+                        "begin": 1390,
+                        "end": 1399,
+                        "type": "Entity",
+                        "attrs": {}
+                    },
+                    "begin": 1369,
+                    "end": 1399,
+                    "type": "Relation",
+                    "attrs": {}
+                }
+            },
+            "Token": {
+                "1369_1374_Token": {
+                    "begin": 1369,
+                    "end": 1374,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1375": {
+            "Token": {
+                "1375_1383_Token": {
+                    "begin": 1375,
+                    "end": 1383,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1384": {
+            "Token": {
+                "1384_1389_Token": {
+                    "begin": 1384,
+                    "end": 1389,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1390": {
+            "Entity": {
+                "1390_1399_Entity_temporal": {
+                    "semantic": "temporal",
+                    "umlsConcepts": [],
+                    "begin": 1390,
+                    "end": 1399,
+                    "type": "Entity",
+                    "attrs": {
+                        "section": "subjective_data",
+                        "assertion": "present"
+                    }
+                }
+            },
+            "Token": {
+                "1390_1394_Token": {
+                    "begin": 1390,
+                    "end": 1394,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1395": {
+            "Token": {
+                "1395_1399_Token": {
+                    "begin": 1395,
+                    "end": 1399,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        },
+        "1399": {
+            "Token": {
+                "1399_1400_Token": {
+                    "begin": 1399,
+                    "end": 1400,
+                    "type": "Token",
+                    "attrs": {}
+                }
+            }
+        }
+    }
+}

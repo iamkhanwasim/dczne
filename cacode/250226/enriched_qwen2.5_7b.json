@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "model": "qwen2.5:7b",
+    "original_entity_count": 20,
+    "enriched_entity_count": 1,
+    "prompt_tokens": 1843,
+    "completion_tokens": 153,
+    "latency_ms": 39024.0
+  },
+  "enriched_entities": [
+    {
+      "enriched_concept": "Hypoglycemia in the morning due to insulin regimen changes and poorly controlled diabetes",
+      "inference_strength": "explicit",
+      "clinical_reasoning": "The patient has ongoing issues with hypoglycemia, especially in the morning, which is directly related to her diabetes and recent insulin regimen changes.",
+      "evidence_spans": [
+        "'somewhat low blood glucoses', 'morning'",
+        "'Diabetes,', 'morning'",
+        "'some problematic low blood glucoses'"
+      ],
+      "source_entities": [
+        {
+          "id": "362_389_Entity_problem",
+          "text": "somewhat low blood glucoses",
+          "semantic": "problem",
+          "assertion": "present",
+          "original_imo": {
+            "lexical_title": "Hypoglycemia",
+            "lexical_code": "46950"
+          },
+          "original_icd10": {
+            "code": "E16.2",
+            "title": "Hypoglycemia, unspecified"
+          }
+        },
+        {
+          "id": "995_1004_Entity_problem",
+          "text": "Diabetes,",
+          "semantic": "problem",
+          "assertion": "present",
+          "original_imo": {
+            "lexical_title": "Diabetes mellitus",
+            "lexical_code": "29688"
+          },
+          "original_icd10": {
+            "code": "E11.9",
+            "title": "Type 2 diabetes mellitus without complications"
+          }
+        },
+        {
+          "id": "1016_1051_Entity_problem",
+          "text": "some problematic low blood glucoses",
+          "semantic": "problem",
+          "assertion": "present",
+          "original_imo": {
+            "lexical_title": "Hypoglycemia",
+            "lexical_code": "46950"
+          },
+          "original_icd10": {
+            "code": "E16.2",
+            "title": "Hypoglycemia, unspecified"
+          }
+        }
+      ],
+      "source_entity_texts": [
+        "somewhat low blood glucoses",
+        "Diabetes,",
+        "some problematic low blood glucoses"
+      ]
+    }
+  ]
+}
